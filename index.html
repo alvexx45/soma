@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alvexx's calculator</title>
+    <link rel="shortcut icon" href="https://i.pinimg.com/564x/9a/e8/a8/9ae8a8b05064e8e86b94c7c74b6e9eba.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <div class="background">
+    <div class="shadow">
+        <div class="center">
+            <div class="title">Sum calculation system</div>
+            <div class="conteiner">
+                <form name="form1">
+                <div class="text1">Type a number: <input class="input-number" type="number" name="num" value=""></div>
+                <div class="buttons">
+                    <input type="button" class="button" value="Add up numbers" onclick="soma(num.value)">
+                    <input type="reset" class="button" value="Clear">
+                </div>
+                <div class="text1">Total value: <input class="input-textbox" type="text" name="result" value=0 disabled></div>
+                <div class="text1" >Amount of numbers typed: <input class="input-textbox" type="text" name="total"  value="0" disabled></div>
+                </form> 
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

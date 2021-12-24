@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: #d7fffe
+}
+.background {
+    height: 100vh;
+    background: url(https://lh3.googleusercontent.com/9xVny2yU08bHJww6B3Hgvl6OF-risuWc-8EsxlaKQjQ0d16GYk1ECjtQ5DjNJyWP14MhLNW1lnkgQ_1JkgaDGki5lKTmDEdafwLcRDewxsGPVvs8xMUIR8eVDjHwmkgQYgwouyKz8CDpPxwh2R9LX5wVQr0C7pALBbf6Jyj8ICtSwYZqPRVcdIn6AO8zyl-auSAJD6F1fSv8u6jHkwAzu4T32amxtDm7uiQQfc61nqiqzAByC4FyQIhXJmkXMUD52cAwytDcNfWsGVQHsOcO9CrrNOakdkji_vm36OwrF0aRvUViEN-Xsz4ah5aLvADPm-c0qMhSAJzJFEQ1gI-l-mpgVanAxu3N1sd27GrJr2v7sUBDn_6SXTVgwYKliWV0ZUAL3oZWZXupx1cWKn0ix_tjuqtyADs3l0KmMAU2z9IJ6wZSVxrcAzO465yAfawTxoD9OVJQDdXOHZ_c27iyzab0JcmxoSiUG_rj1_Tc2cECrsUoktUDOUG-SbVRc-3B3sGM4g_oiudb8AfeHVSnU_JXpqJcQ7tlo8d8THEg4ZBkITmQswiEBcXC45FqIzOprFYpv0ayPMHyF7J1qlahoollJLkV3RdyLpr8ak_2Q8icl1yXp0FAcJaMWtHtjIn0fwqctBpnwg5d3jGfwm_u4zcY6GSgmxyFLRX9IrKeS9J2zBaY12CHDR6-jEwfGjxqU9qZQPuZg2cB-gVY9-ukf6y5=w1385-h979-no?authuser=0);
+    background-size: cover;
+    background-position: center;
+}
+.shadow {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.655);
+}
+.center {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+}
+.title {
+    position: relative;
+    font-size: 5rem;
+    text-shadow: 0 0 2px #49a7c2, 0 0 6px #49a7c2, 0 0 18px #49a7c2;
+}
+.conteiner {
+    height: auto;
+    background: transparent;
+    justify-content: baseline;
+    padding: 50px 30px 50px 30px;
+    border-radius: 10px;
+}
+.text1 {
+    font-size: 2rem;
+}
+.buttons {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    width: 500px;
+}
+.button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #a2233d;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: #d7fffe;
+    border: none;
+    transition: 0,5s;
+}
+.button:hover {
+    background: #8a1e34;
+    color: #d8f0ef;
+}
+.input-textbox {
+    height: 2rem;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    background: transparent;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: #d7fffe;
+}
+.input-number {
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
